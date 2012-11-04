@@ -11,7 +11,6 @@ body { font-family: Arial,sans-serif; margin: 0; padding: 0; font-size: 13px; }
 }
 h2 { font-size: 2.154em; }
 h3 { display: block; font-size: 20px; padding: 8px; }
-.box-right-gutter {  }
 
 .header-wrap {
   position: relative; width: 100%; z-index: 2; border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -48,7 +47,7 @@ h3 { display: block; font-size: 20px; padding: 8px; }
         .tv-link a:hover { border-bottom-color: #333333; }
         .radio-link a:hover { border-bottom-color: #333333; }
         .more-link a:hover { border-bottom-color: #757575; }
-        }
+      }
 
       .search-box {
         height: 23px; margin-top: 8px; float: left; width: 0; z-index: 1;
@@ -59,13 +58,15 @@ h3 { display: block; font-size: 20px; padding: 8px; }
   }
 }
 
+.main-container { width: 976px; margin: 26px auto 0; }
+
 .big-title-head {
   font-size: 27px;font-weight: bold; letter-spacing: -0.2px; line-height: 1.4285em;
-  background-color: #DCDCDC; border-bottom: 0 none; margin-bottom: 0; padding: 1px 0 1px 14px;
+  background-color: #DCDCDC; border-bottom: 0 none; margin: 0; padding: 1px 0 1px 14px;
   a { color: #174F82; text-decoration: none; }
 }
 
-.title-head {   font-size: 2.154em; font-weight: bold; letter-spacing: -0.2px;
+.title-head { font-size: 2.154em; font-weight: bold; letter-spacing: -0.2px;
   line-height: 1.4285em; border-bottom: 1px solid #D3D3D3; margin: 0 0 7px;
 
   a { color: #174F82; text-decoration: none;
@@ -91,13 +92,12 @@ h3 { display: block; font-size: 20px; padding: 8px; }
 
 .main-container {
   .left-column {
-    margin-top: 4px;
 
     .slider { width:624px; height:259px; background: transparent url("img/slider-bg.png") no-repeat scroll 0 0;  }
 
   }
   .right-column {
-    margin-top: 19px;
+    padding-left: 8px; width: 336px;
 
     .spotlight-box {
      background-color: #DCDCDC;
